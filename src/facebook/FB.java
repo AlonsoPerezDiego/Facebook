@@ -20,7 +20,7 @@ public class FB {
         CaraLibro obj = new CaraLibro();
         int select;
         do{
-            select = Integer.parseInt(JOptionPane.showInputDialog("1: Postear.\n2: Postear imagen.\n3:"));
+            select = Integer.parseInt(JOptionPane.showInputDialog("1: Postear.\n2: Postear imagen.\n3:Comentar. \n4:Buscar\n5:Comentar foto\n6:Like"));
             switch(select){
                 case 1: obj.publicar(JOptionPane.showInputDialog("Tú post"));
                         break;
